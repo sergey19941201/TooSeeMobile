@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooSeeIOS", "TooSeeIOS.csproj", "{D05787F0-0FE7-4AF5-A582-F955CF818516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D05787F0-0FE7-4AF5-A582-F955CF818516}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D05787F0-0FE7-4AF5-A582-F955CF818516}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D05787F0-0FE7-4AF5-A582-F955CF818516}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D05787F0-0FE7-4AF5-A582-F955CF818516}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D05787F0-0FE7-4AF5-A582-F955CF818516}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D05787F0-0FE7-4AF5-A582-F955CF818516}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D05787F0-0FE7-4AF5-A582-F955CF818516}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D05787F0-0FE7-4AF5-A582-F955CF818516}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal

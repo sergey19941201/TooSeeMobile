@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="#ffffff"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:layout_width="27.0dp"
+            android:layout_height="27.0dp"
+            android:id="@+id/leftDrawerBn"
+            android:background="@drawable/hamburger100"
+            android:layout_marginLeft="13.0dp"
+            android:layout_marginTop="8.0dp" />
+        <TextView
+            android:text="Large Text"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploadVideoTV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7.0dp"
+            android:textSize="18dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/linearLayout2"
+        android:background="#300d223a"
+        android:layout_marginTop="5dp" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/videoNameTV"
+                android:textColorHint="#60000000"
+                android:textColor="#ff0d223a"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginTop="25.5dp"
+                android:textSize="14dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:minHeight="37.5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/videoNameET"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginRight="10.5dp"
+                android:paddingLeft="3.5dp"
+                android:paddingRight="3.5dp"
+                android:background="@drawable/defaultedittext"
+                android:layout_marginTop="10.5dp"
+                android:textColor="#000000" />
+            <TextView
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/videoDescriptionTV"
+                android:textColorHint="#60000000"
+                android:textColor="#ff0d223a"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginTop="25.5dp"
+                android:textSize="14dp" />
+            <EditText
+                android:layout_width="match_parent"
+                android:minHeight="142.0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/yearET"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:paddingLeft="3.5dp"
+                android:paddingRight="3.5dp"
+                android:paddingTop="3.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/defaultedittext"
+                android:layout_marginLeft="10.5dp"
+                android:textColor="#000000"
+                android:layout_marginTop="10.0dp"
+                android:layout_marginRight="10.5dp" />
+            <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="47.5dp"
+                android:id="@+id/nextBn"
+                android:background="@drawable/greenbutton"
+                android:layout_marginLeft="10.5dp"
+                android:layout_marginRight="10.5dp"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:layout_marginTop="24.0dp"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
